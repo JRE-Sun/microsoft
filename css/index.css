@@ -1,0 +1,145 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei,  simsun, sans-serif;
+}
+
+
+#tab1 h4{
+	margin-top: 15px;
+}
+
+#tab1 .col-md-3{
+	margin-bottom: 50px;
+}
+#tab1 .col-sm-6{
+	margin-bottom: 50px;
+}
+#tab1 .col-xs-6{
+	margin-bottom: 50px;
+}
+
+
+#tab2 h1{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#tab2 .col-md-3{
+	margin-bottom: 50px;
+}
+#tab2 .col-sm-6{
+	margin-bottom: 50px;
+}
+#tab2 .col-xs-6{
+	margin-bottom: 50px;
+}
+
+
+.footer{
+}
+.footer ul{
+	margin-top: 20px;
+	list-style: none;
+	padding-bottom: 50px;
+}
+
+.footer ul li{
+	line-height: 2;
+}
+
+.footer ul li.first{
+	font-size: 16px;
+}
+.footer a{
+	color: #626262;
+}
+
+
+
+/* 超小设备（手机，小于 768px） */
+/* Bootstrap 中默认情况下没有媒体查询 */
+@media (min-width: 320px){
+#tab1 .col-md-3{
+	/*height: 162px;*/
+	margin-bottom: 20px;
+	
+}
+#tab2 h1{
+	font-size: 5px;
+}
+
+#tab1 .last{
+	margin-bottom: 40px;
+}
+}
+
+
+/* 小型设备（平板电脑，768px 起） */
+@media (min-width: 768px) {
+#tab1 .col-md-3{
+	margin-bottom: 40px;
+	height: auto;
+}
+#tab2 h1{
+	font-size: 10px;
+}
+#tab2 .col-md-3{
+	margin-bottom: 40px;
+}
+#tab2 .col-sm-6{
+	margin-bottom: 40px;
+}
+#tab2 .col-xs-6{
+	margin-bottom: 40px;
+}
+}
+
+/* 中型设备（台式电脑，992px 起） */
+@media (min-width: 992px) { 
+#tab1 .col-md-3{
+	margin-bottom: 80px;
+}
+#tab1 .col-sm-6{
+	margin-bottom: 80px;
+}
+#tab2 h1{
+	font-size: 15px;
+}
+#tab1 .col-xs-6{
+	margin-bottom: 80px;
+}
+#tab2 .col-md-3{
+	margin-bottom: 50px;
+}
+#tab2 .col-sm-6{
+	margin-bottom: 50px;
+}
+#tab2 .col-xs-6{
+	margin-bottom: 50px;
+}
+ }
+
+/* 大型设备（大台式电脑，1200px 起） */
+@media (min-width: 1200px) { 
+#tab1 .col-md-3{
+	margin-bottom: 80px;
+}
+#tab1 .col-sm-6{
+	margin-bottom: 80px;
+}
+#tab2 h1{
+	font-size: 25px;
+}
+#tab1 .col-xs-6{
+	margin-bottom: 80px;
+}
+#tab2 .col-md-3{
+	margin-bottom: 50px;
+}
+#tab2 .col-sm-6{
+	margin-bottom: 50px;
+}
+#tab2 .col-xs-6{
+	margin-bottom: 50px;
+}
+}
